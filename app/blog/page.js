@@ -6,6 +6,7 @@ import blogImage2 from "@/public/blogimg2.png";
 import blogImage3 from "@/public/blogimg3.png";
 import blogImage4 from "@/public/blogimg4.png";
 import blogImage5 from "@/public/blogimg5.png";
+import Link from "next/link";
 
 export default function Blog() {
   return (
@@ -35,7 +36,9 @@ export default function Blog() {
         </div>
         <div className="blogcontent grid grid-cols-3 gap-4 lg:gap-8">
           <div className="blocard pt-16">
-            <Image src={blogImage} alt="blogimg image" />
+            <Link href="/blog/blog_details">
+              <Image src={blogImage} alt="blogimg image" />{" "}
+            </Link>
             <div className="mt-6">
               <h4 className="font-medium text-[28px] leading-[1.2] tracking-tight text-[#1a191e] mb-2">
                 How To Start Using Banko For Your Startup
@@ -55,6 +58,7 @@ export default function Blog() {
               </ul>
             </div>
           </div>
+
           <div className="blocard pt-16">
             <Image src={blogImage1} alt="blogimg1 image" />
             <div className="mt-6">
