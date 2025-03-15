@@ -101,8 +101,8 @@ export default function RootLayout({ children }) {
         <main className="flex-1">{children}</main>
 
         {/* footer */}
-        <footer className="mt-20 mb-12 px-4 font-geist-mono">
-          <nav className="max-w-[1432px] mx-auto flex justify-between pt-24 pb-20 border-y border-[#e8e8e8]">
+        <footer className="mt-20 mb-12 px-4 font-geist-mono border-t border-[#e8e8e8]">
+          <nav className="max-w-[1432px] mx-auto flex justify-between pt-24 pb-20 border-b border-[#e8e8e8]">
             <Link
               href={"/"}
               className="logo text-[#5bb5a2] text-[36px] font-bold w-[435px]"

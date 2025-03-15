@@ -254,7 +254,7 @@ export default function Home() {
               <h3 className="text-[40px] font-medium leading-[1.2] tracking-tight text-[#1a191e] mb-2">
                 Statistics
               </h3>
-              <p className="max-w-[460px] mx-auto text-[18px] font-medium leading-[1.8] text-[#1a191e] mb-[73px]">
+              <p className="max-w-[460px] mx-auto text-[18px] font-medium leading-[1.8] text-[#1a191e80] mb-[73px]">
                 Senectus et netus et malesuada fames ac turpis. Sagittis vitae
                 et leo duis ut diam.
               </p>
@@ -270,9 +270,9 @@ export default function Home() {
           <div className="onecard bg-[#f8f8f8] mx-auto w-full pt-[64px] rounded-[20px]">
             <div className="onebnkheding text-center">
               <h3 className="text-[40px] font-medium leading-[1.2] tracking-tight text-[#1a191e] mb-2">
-                Statistics
+                Cards
               </h3>
-              <p className="max-w-[460px] mx-auto text-[18px] font-medium leading-[1.8] text-[#1a191e] mb-[73px]">
+              <p className="max-w-[460px] mx-auto text-[18px] font-medium leading-[1.8] text-[#1a191e80] mb-[73px]">
                 Senectus et netus et malesuada fames ac turpis. Sagittis vitae
                 et leo duis ut diam.
               </p>
@@ -308,7 +308,7 @@ export default function Home() {
               <h3 className="text-[40px] font-medium leading-[1.2] tracking-tight text-[#1a191e] mb-2">
                 Easy <br /> integration
               </h3>
-              <p className="max-w-[460px] mx-auto text-[18px] font-medium leading-[1.8] text-[#1a191e] mb-[73px]">
+              <p className="max-w-[460px] mx-auto text-[18px] font-medium leading-[1.8] text-[#1a191e80] mb-[73px]">
                 Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
               </p>
             </div>
@@ -322,7 +322,7 @@ export default function Home() {
                 <h3 className="text-[40px] font-medium leading-[1.2] tracking-tight text-[#1a191e] mb-2">
                   Savings <br /> Accounts
                 </h3>
-                <p className="max-w-[460px] mx-auto text-[18px] font-medium leading-[1.8] text-[#1a191e] mb-[73px]">
+                <p className="max-w-[460px] mx-auto text-[18px] font-medium leading-[1.8] text-[#1a191e80] mb-[73px]">
                   Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
                   elit.
                 </p>
@@ -338,7 +338,7 @@ export default function Home() {
                 <h3 className="text-[40px] font-medium leading-[1.2] tracking-tight text-[#1a191e] mb-2">
                   Instant <br /> transactions
                 </h3>
-                <p className="max-w-[460px] mx-auto text-[18px] font-medium leading-[1.8] text-[#1a191e] mb-[73px]">
+                <p className="max-w-[460px] mx-auto text-[18px] font-medium leading-[1.8] text-[#1a191e80] mb-[73px]">
                   Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
                   elit.
                 </p>
