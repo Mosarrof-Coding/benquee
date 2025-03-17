@@ -34,7 +34,7 @@ export default function Home() {
     <section className="">
       {/* hero */}
       <div className="bg-[#e8f2ee]">
-        <div className="max-w-[832px] px-4 mx-auto text-center min-h-[57vh] py-14 md:py-12 lg:py-16 xl:py-20">
+        <div className="max-w-[832px] px-4 mx-auto text-center xl:min-h-[57vh] py-14 md:py-18 lg:py-20 xl:pt-28">
           <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-[80px] mb-1 text-[#1a191e] font-medium">
             All in one Card
           </h1>
@@ -42,10 +42,10 @@ export default function Home() {
             Senectus et netus et malesuada fames ac turpis. Sagittis vitae et
             leo duis ut diam.
           </h6>
-          <div className="button w-fit mx-auto flex items-center justify-center flex-wrap gap-2 sm:gap-4 lg:gap-6 xl:gap-8 pt-6 md:pt-8 lg:pt-12">
+          <div className="button w-fit mx-auto flex items-center justify-center flex-wrap gap-2 sm:gap-4 lg:gap-6 xl:gap-8 pt-6 md:pt-8 lg:pt-12 mb-8">
             <Link
               href={"user/account"}
-              className="text-[14px] sm:text-[16px] lg:text-[18px] tracking-tight py-1 sm:py-2 lg:py-4 px-2 sm:px-4 lg:px-6 rounded-[3px] lg:rounded-[6px] bg-[#5bb5a2] text-white"
+              className="text-[14px] sm:text-[16px] lg:text-[18px] tracking-tight py-1 sm:py-2 lg:py-3 xl:py-4 px-2 sm:px-3 lg:px-4 xl:px-6 rounded-[3px] lg:rounded-[6px] bg-[#5bb5a2] text-white"
             >
               Open Account
             </Link>
@@ -535,7 +535,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* call to action */}
+      {/* one app */}
       <div className="ctabtn max-w-[1232px] px-2 mx-2 xl:mx-auto my-14 lg:my-18 xl:my-20 bg-[#5bb5a2] rounded-xl lg:rounded-2xl flex flex-col md:flex-row gap-8 lg:gap-16">
         <div className="left w-full py-6 md:py-8 lg:py-12 xl:py-20 px-2 sm:px-4 lg:px-8 xl:pl-[76px]">
           <h2 className="mb-3 lg:mb-6 xl:mb-8 text-white">
@@ -602,7 +602,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="my-14 lg:my-18 xl:my-20 xl:pt-24 sm:pr-4 lg:pr-8 xl:pr-12 2xl:pr-16 flex justify-center md:justify-end">
+        <div className="pt-10 sm:pt-12 lg:pt-16 xl:pt-24 sm:pr-4 lg:pr-8 xl:pr-12 2xl:pr-16 flex justify-center md:justify-end">
           <Image
             src={ctacard}
             alt="ctacard image"
