@@ -35,7 +35,7 @@ export default function Home() {
       {/* hero */}
       <div className="bg-[#e8f2ee]">
         <div className="heading max-w-[832px] px-4 mx-auto text-center min-h-[57vh] py-14 md:py-12 lg:py-16 xl:py-20">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-7xl leading-[1.1] text-[#1a191e] font-medium">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-[80px] leading-[1.1] text-[#1a191e] font-medium">
             All in one Card
           </h1>
           <h6 className="text-[18px] lg:text-[20px] leading-[1.4] lg:leading-[1.8] text-[#1a191e] max-w-[500px] mx-auto">
