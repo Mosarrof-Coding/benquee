@@ -118,155 +118,159 @@ export default function RootLayout({ children }) {
         <main className="flex-1">{children}</main>
 
         {/* footer */}
-        <footer className="mt-20 mb-12 px-4 font-geist-mono border-t border-[#e8e8e8]">
-          <nav className="max-w-[1432px] mx-auto flex justify-between flex-wrap gap-6 pt-24 pb-20 border-b border-[#e8e8e8]">
-            <Link
-              href={"/"}
-              className="logo text-[#5bb5a2] text-[36px] font-bold w-[435px]"
-            >
-              banquee.
-            </Link>
-            <div className="w-[965px] flex justify-between pt-4">
-              <div>
-                <h4 className="font-medium text-[18px] leading-[1.4] tracking-[-0.03em] text-[#1A191E] mb-8">
-                  About
-                </h4>
-                <ul className="flex flex-col gap-4">
-                  <li>
-                    <Link
-                      href="/about"
-                      className="font-medium text-[16px] leading-[1.6] text-[#1a191e80] hover:text-[#1A191E]"
-                    >
-                      About
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/pricing"
-                      className="font-medium text-[16px] leading-[1.6] text-[#1a191e80] hover:text-[#1A191E]"
-                    >
-                      Pricing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/support"
-                      className="font-medium text-[16px] leading-[1.6] text-[#1a191e80] hover:text-[#1A191E]"
-                    >
-                      Support
-                    </Link>
-                  </li>
-                </ul>
+        <footer className="mt-12 lg:mt-16 xl:mt-20 mb-8 xl:mb-12 font-geist-mono border-t border-[#e8e8e8]">
+          <nav className="max-w-[1432px] px-4 mx-auto py-12 lg:py-16 xl:py-24 border-b border-[#e8e8e8]">
+            <div className="grid grid-cols-12">
+              <div className="col-span-12 md:col-span-3 lg:col-span-4">
+                <Link
+                  href={"/"}
+                  className="logo text-[#5bb5a2] text-2xl lg:text-[28px] :text-[36px] font-bold "
+                >
+                  banquee.
+                </Link>{" "}
               </div>
+              <div className="flex justify-between gap-8 flex-wrap pt-4 col-span-12 md:col-span-9 lg:col-span-8">
+                <div>
+                  <h4 className="font-semibold text-[18px] lg:text-[20px] leading-[1.4] tracking-[-0.03em] text-[#1A191E] mb-5 lg:mb-7">
+                    About
+                  </h4>
+                  <ul className="flex flex-col gap-4">
+                    <li>
+                      <Link
+                        href="/about"
+                        className="min-w-fit font-medium text-[16px] leading-[1.6] text-[#1a191e70] hover:text-[#1A191E90]"
+                      >
+                        About
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/pricing"
+                        className="min-w-fit font-medium text-[16px] leading-[1.6] text-[#1a191e70] hover:text-[#1A191E90]"
+                      >
+                        Pricing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/support"
+                        className="min-w-fit font-medium text-[16px] leading-[1.6] text-[#1a191e70] hover:text-[#1A191E90]"
+                      >
+                        Support
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
 
-              {/* Blog Section */}
-              <div>
-                <h4 className="font-medium text-[18px] leading-[1.4] tracking-[-0.03em] text-[#1A191E] mb-8">
-                  Blog
-                </h4>
-                <ul className="flex flex-col gap-4">
-                  <li>
-                    <Link
-                      href="/blog/products"
-                      className="font-medium text-[16px] leading-[1.6] text-[#1a191e80] hover:text-[#1A191E]"
-                    >
-                      Products
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/blog/technology"
-                      className="font-medium text-[16px] leading-[1.6] text-[#1a191e80] hover:text-[#1A191E]"
-                    >
-                      Technology
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/blog/crypto"
-                      className="font-medium text-[16px] leading-[1.6] text-[#1a191e80] hover:text-[#1A191E]"
-                    >
-                      Crypto
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+                {/* Blog Section */}
+                <div>
+                  <h4 className="font-semibold text-[18px] lg:text-[20px] leading-[1.4] tracking-[-0.03em] text-[#1A191E] mb-5 lg:mb-7">
+                    Blog
+                  </h4>
+                  <ul className="flex flex-col gap-2">
+                    <li>
+                      <Link
+                        href="/blog/products"
+                        className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] hover:text-[#1A191E90]"
+                      >
+                        Products
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/blog/technology"
+                        className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] hover:text-[#1A191E90]"
+                      >
+                        Technology
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/blog/crypto"
+                        className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] hover:text-[#1A191E90]"
+                      >
+                        Crypto
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
 
-              {/* Webflow Section */}
-              <div>
-                <h4 className="font-medium text-[18px] leading-[1.4] tracking-[-0.03em] text-[#1A191E] mb-8">
-                  Webflow
-                </h4>
-                <ul className="flex flex-col gap-4">
-                  <li>
-                    <Link
-                      href="/webflow/styleguide"
-                      className="font-medium text-[16px] leading-[1.6] text-[#1a191e80] hover:text-[#1A191E]"
-                    >
-                      Styleguide
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/webflow/licensing"
-                      className="font-medium text-[16px] leading-[1.6] text-[#1a191e80] hover:text-[#1A191E]"
-                    >
-                      Licensing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/webflow/changelog"
-                      className="font-medium text-[16px] leading-[1.6] text-[#1a191e80] hover:text-[#1A191E]"
-                    >
-                      Changelog
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+                {/* Webflow Section */}
+                <div>
+                  <h4 className="font-semibold text-[18px] lg:text-[20px] leading-[1.4] tracking-[-0.03em] text-[#1A191E] mb-5 lg:mb-7">
+                    Webflow
+                  </h4>
+                  <ul className="flex flex-col gap-4">
+                    <li>
+                      <Link
+                        href="/webflow/styleguide"
+                        className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] hover:text-[#1A191E90]"
+                      >
+                        Styleguide
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/webflow/licensing"
+                        className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] hover:text-[#1A191E90]"
+                      >
+                        Licensing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/webflow/changelog"
+                        className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] hover:text-[#1A191E90]"
+                      >
+                        Changelog
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
 
-              {/* Social Media Section */}
-              <div>
-                <h4 className="font-medium text-[18px] leading-[1.4] tracking-[-0.03em] text-[#1A191E] mb-8">
-                  Social Media
-                </h4>
-                <ul className="flex flex-col gap-4">
-                  <li>
-                    <a
-                      href="https://twitter.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-medium text-[16px] leading-[1.6] text-[#1a191e80] hover:text-[#1A191E]"
-                    >
-                      Twitter
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://facebook.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-medium text-[16px] leading-[1.6] text-[#1a191e80] hover:text-[#1A191E]"
-                    >
-                      Facebook
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://instagram.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-medium text-[16px] leading-[1.6] text-[#1a191e80] hover:text-[#1A191E]"
-                    >
-                      Instagram
-                    </a>
-                  </li>
-                </ul>
-              </div>
+                {/* Social Media Section */}
+                <div>
+                  <h4 className="font-semibold text-[18px] lg:text-[20px] leading-[1.4] tracking-[-0.03em] text-[#1A191E] mb-5 lg:mb-7">
+                    Social Media
+                  </h4>
+                  <ul className="flex flex-col gap-4">
+                    <li>
+                      <a
+                        href="https://twitter.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] hover:text-[#1A191E90]"
+                      >
+                        Twitter
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://facebook.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] hover:text-[#1A191E90]"
+                      >
+                        Facebook
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://instagram.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] hover:text-[#1A191E90]"
+                      >
+                        Instagram
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>{" "}
             </div>
           </nav>
-          <div className="copyright pt-4">
-            <div className="powerd w-[1400px] mx-auto flex justify-between">
+          <div className="copyright pt-4 max-w-[1432px] px-4 mx-auto">
+            <div className="powerd flex justify-between flex-wrap gpa-4">
               <p className="text-[14px] font-medium leading-[1.6] text-[#1a191e80]">
                 © Made by{" "}
                 <span className="text-[#5bb5a2]">
@@ -290,7 +294,7 @@ export default function RootLayout({ children }) {
                   </a>
                 </span>
               </p>
-              <ul className="text-[14px] font-medium leading-[1.6] text-[#1a191e80] flex items-center gap-8">
+              <ul className="text-[14px] font-medium leading-[1.6] text-[#1a191e80] flex gap-8">
                 <li className="cursor-pointer">Impressum</li>
                 <li className="cursor-pointer">Mission</li>
               </ul>

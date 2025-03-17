@@ -7,27 +7,64 @@
 .container {
   margin: 0 auto;
 }
-.contizer {
-  max-width: 1232px;
-  padding: 0 16px;
-  margin: 0 auto;
-}
-/* @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-} */
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
 
 body {
-  background: #fff;
-  /* color: var(--foreground); */
   font-family: inter, sans-serif;
+}
+/* Tailwind Directives */
+@tailwind utilities;
+@tailwind utilities;
+
+/* Layer Components */
+@layer components {
+  p {
+    @apply text-[15px] md:text-[17px] font-medium leading-[1.4] lg:leading-[1.8] text-[#1a191e80];
+  }
+  /* mb-6 lg:mb-8 xl:mb-12 */
+  h2 {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-medium leading-[1.1] tracking-tight text-[#1a191e] mb-4;
+  }
+  h6 {
+    @apply text-[16px] sm:text-[18px] lg:text-[20px] font-medium leading-[1.4] lg:leading-[1.5] tracking-tight text-[#485460];
+  }
+  /* transaction */
+  .tranImage {
+    @apply max-w-[240px] lg:max-w-[280px] xl:max-w-[320px] 2xl:max-w-full;
+  }
+  .cmnView {
+    @apply max-w-[800px] lg:max-w-[1000px] xl:max-w-[1232px] px-4 mx-auto flex flex-col md:flex-row items-center justify-between gap-8 lg:gap-12 pt-10 md:pt-14 xl:pt-18 bg-red-200;
+  }
+  .cmnHeading {
+    @apply w-full md:max-w-[538px] xl:max-w-[600px];
+  }
+  .categorys {
+    @apply leading-[1.4] lg:leading-[1.8] text-[#E1C69D] flex items-center gap-2;
+  }
+  .cmnView2 {
+    @apply max-w-[1232px] px-4 mx-auto pt-10 md:pt-14 xl:pt-18 list-none;
+  }
+  .cmnSubheading {
+    @apply max-w-[660px] mx-auto text-center pb-8 sm:pb-10 lg:pb-12 xl:pb-16;
+  }
+  .cmnLi {
+    @apply text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[64px] font-medium leading-[1.1] tracking-tight text-[#1a191e] mb-2 lg:mb-4 list-none;
+  }
+  .onecard {
+    @apply bg-[#f8f8f8] mx-auto w-full pt-6 sm:pt-8 lg:pt-12 xl:pt-16 rounded-xl lg:rounded-[20px] h-full flex flex-col justify-between overflow-hidden;
+  }
+  .h3 {
+    @apply text-2xl lg:text-3xl xl:text-4xl font-medium leading-[1.2] tracking-tight text-[#1a191e] mb-2;
+  }
+  .onrimg {
+    @apply mt-7 sm:mt-8 lg:mt-14 xl:mt-16 h-fit;
+  }
+  .price {
+    @apply flex items-center gap-1.5 lg:gap-3 w-fit mx-auto mb-2 sm:mb-4;
+  }
+  .priceCategory {
+    @apply text-[10px] lg:text-[12px] px-1.5 sm:px-2 lg:px-3 leading-[1.4] lg:leading-[1.8] text-[#5bb5a2] bg-[#e8f2ee] rounded-[2px] lg:rounded-[4px];
+  }
+  .priceBtn {
+    @apply w-full text-[15px] font-medium leading-[1] text-white bg-[#5bb5a2] rounded-[3px] lg:rounded-[6px] px-4 py-1.5 lg:py-3 cursor-pointer;
+  }
 }
