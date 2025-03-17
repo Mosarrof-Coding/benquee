@@ -35,26 +35,31 @@ export default function Home() {
       {/* hero */}
       <div className="bg-[#e8f2ee]">
         <div className="container">
-          <div className="heading max-w-[832px] px-4 mx-auto text-center pt-[128px] pb-[152px]">
-            <h1 className="text-[80px] leading-[1.1] text-[#1a191e] font-medium">
+          <div className="heading max-w-[832px] px-4 mx-auto text-center min-h-[calc(100vh-386px)]">
+            <h1 className="text-[38px] md:text-[48px] lg:text-[64px] xl:text-[80px] leading-[1.1] text-[#1a191e] font-medium">
               All in one Card
             </h1>
-            <h6 className="text-[20px] leading-[1.8] text-[#1a191e] max-w-[500px] mx-auto">
+            <h6 className="text-[18px] lg:text-[20px] leading-[1.4] lg:leading-[1.8] text-[#1a191e] max-w-[500px] mx-auto">
               Senectus et netus et malesuada fames ac turpis. Sagittis vitae et
               leo duis ut diam.
             </h6>
-            <div className="button w-fit mx-auto flex items-center gap-8 pt-8">
+            <div className="button w-fit mx-auto flex items-center justify-center flex-wrap gap-4 lg:gap-8 pt-8">
               <Link
                 href={"user/account"}
-                className="text-[18px] tracking-[-0.03em] py-4 px-6 rounded-[6px] bg-[#5bb5a2] text-white"
+                className="text-[16px] lg:text-[18px] tracking-[-0.03em] py-2 lg:py-4 px-4 lg:px-6 rounded-[6px] bg-[#5bb5a2] text-white"
               >
                 Open Account
               </Link>
               <div>
-                <button className="text-[#5bb5a2] text-[18px] tracking-tight flex items-center gap-2 cursor-pointer">
+                <button className="text-[#5bb5a2] text-[16px] lg:text-[18px] tracking-tight flex items-center gap-2 cursor-pointer">
                   Compare Card
                   <span>
-                    <Image src={chevdown} alt="chevdown image" />
+                    <Image
+                      src={chevdown}
+                      alt="chevdown image"
+                      width={0}
+                      className="w-3 lg:w-4"
+                    />
                   </span>
                 </button>
               </div>
@@ -63,19 +68,19 @@ export default function Home() {
         </div>
         <div className="cards flex justify-between items-end gap-4">
           <div className="card">
-            <Image src={card1} alt="card1 image" />
+            <Image src={card1} alt="card1 image" width={0} height={0} />
           </div>
           <div className="card">
-            <Image src={card2} alt="card2 image" />
+            <Image src={card2} alt="card2 image" width={0} height={0} />
           </div>
           <div className="card">
-            <Image src={card3} alt="card3 image" />
+            <Image src={card3} alt="card3 image" width={0} height={0} />
           </div>
           <div className="card">
-            <Image src={card4} alt="card4 image" />
+            <Image src={card4} alt="card4 image" width={0} height={0} />
           </div>
           <div className="card">
-            <Image src={card5} alt="card5 image" />
+            <Image src={card5} alt="card5 image" width={0} height={0} />
           </div>
         </div>
       </div>
