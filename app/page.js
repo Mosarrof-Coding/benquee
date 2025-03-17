@@ -34,35 +34,33 @@ export default function Home() {
     <section className="">
       {/* hero */}
       <div className="bg-[#e8f2ee]">
-        <div className="container">
-          <div className="heading max-w-[832px] px-4 mx-auto text-center min-h-[calc(100vh-400px)]">
-            <h1 className="text-[38px] md:text-[48px] lg:text-[64px] xl:text-[80px] leading-[1.1] text-[#1a191e] font-medium">
-              All in one Card
-            </h1>
-            <h6 className="text-[18px] lg:text-[20px] leading-[1.4] lg:leading-[1.8] text-[#1a191e] max-w-[500px] mx-auto">
-              Senectus et netus et malesuada fames ac turpis. Sagittis vitae et
-              leo duis ut diam.
-            </h6>
-            <div className="button w-fit mx-auto flex items-center justify-center flex-wrap gap-4 lg:gap-8 pt-8">
-              <Link
-                href={"user/account"}
-                className="text-[16px] lg:text-[18px] tracking-[-0.03em] py-2 lg:py-4 px-4 lg:px-6 rounded-[6px] bg-[#5bb5a2] text-white"
-              >
-                Open Account
-              </Link>
-              <div>
-                <button className="text-[#5bb5a2] text-[16px] lg:text-[18px] tracking-tight flex items-center gap-2 cursor-pointer">
-                  Compare Card
-                  <span>
-                    <Image
-                      src={chevdown}
-                      alt="chevdown image"
-                      width={0}
-                      className="w-3 lg:w-4"
-                    />
-                  </span>
-                </button>
-              </div>
+        <div className="heading max-w-[832px] px-4 mx-auto text-center h-[calc(100vh-120px)] lg:h-[calc(100vh-175px)]">
+          <h1 className="text-[38px] md:text-[48px] lg:text-[64px] xl:text-[80px] leading-[1.1] text-[#1a191e] font-medium">
+            All in one Card
+          </h1>
+          <h6 className="text-[18px] lg:text-[20px] leading-[1.4] lg:leading-[1.8] text-[#1a191e] max-w-[500px] mx-auto">
+            Senectus et netus et malesuada fames ac turpis. Sagittis vitae et
+            leo duis ut diam.
+          </h6>
+          <div className="button w-fit mx-auto flex items-center justify-center flex-wrap gap-4 lg:gap-8 pt-8">
+            <Link
+              href={"user/account"}
+              className="text-[16px] lg:text-[18px] tracking-[-0.03em] py-2 lg:py-4 px-4 lg:px-6 rounded-[6px] bg-[#5bb5a2] text-white"
+            >
+              Open Account
+            </Link>
+            <div>
+              <button className="text-[#5bb5a2] text-[16px] lg:text-[18px] tracking-tight flex items-center gap-2 cursor-pointer">
+                Compare Card
+                <span>
+                  <Image
+                    src={chevdown}
+                    alt="chevdown image"
+                    width={0}
+                    className="w-3 lg:w-4"
+                  />
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -84,6 +82,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       {/* transation */}
       <div className="transation max-w-[1232px] px-4 mx-auto flex items-center justify-between gap-12 py-[80px]">
         <div className="heading1 max-w-[538px]">
