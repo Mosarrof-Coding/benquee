@@ -34,7 +34,7 @@ export default function Home() {
     <section className="">
       {/* hero */}
       <div className="bg-[#e8f2ee]">
-        <div className="heading max-w-[832px] px-4 mx-auto text-center min-h-[57vh] pt-14 md:pt-12 lg:pt-16 xl:pt-20">
+        <div className="heading max-w-[832px] px-4 mx-auto text-center min-h-[57vh] py-14 md:py-12 lg:py-16 xl:py-20">
           <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-7xl leading-[1.1] text-[#1a191e] font-medium">
             All in one Card
           </h1>
@@ -42,7 +42,7 @@ export default function Home() {
             Senectus et netus et malesuada fames ac turpis. Sagittis vitae et
             leo duis ut diam.
           </h6>
-          <div className="button w-fit mx-auto flex items-center justify-center flex-wrap gap-4 lg:gap-8 pt-8">
+          <div className="button w-fit mx-auto flex items-center justify-center flex-wrap gap-4 lg:gap-8 pt-6 md:pt-8">
             <Link
               href={"user/account"}
               className="text-[16px] lg:text-[18px] tracking-[-0.03em] py-2 lg:py-4 px-4 lg:px-6 rounded-[6px] bg-[#5bb5a2] text-white"
