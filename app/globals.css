@@ -32,7 +32,7 @@ body {
     @apply max-w-[240px] lg:max-w-[280px] xl:max-w-[320px] 2xl:max-w-full;
   }
   .cmnView {
-    @apply max-w-[800px] lg:max-w-[1000px] xl:max-w-[1232px] px-4 mx-auto flex flex-col md:flex-row items-center justify-between gap-8 lg:gap-12 pt-10 md:pt-14 xl:pt-18 bg-red-200;
+    @apply max-w-[800px] lg:max-w-[1000px] xl:max-w-[1232px] px-4 mx-auto flex flex-col md:flex-row items-center justify-between gap-8 lg:gap-12 pt-10 md:pt-14 xl:pt-18;
   }
   .cmnHeading {
     @apply w-full md:max-w-[538px] xl:max-w-[600px];

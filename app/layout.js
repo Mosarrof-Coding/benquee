@@ -270,7 +270,7 @@ export default function RootLayout({ children }) {
             </div>
           </nav>
           <div className="copyright pt-4 max-w-[1432px] px-4 mx-auto">
-            <div className="powerd flex justify-between flex-wrap gpa-4">
+            <div className="powerd flex flex-col sm:flex-row justify-between flex-wrap gap-2">
               <p className="text-[14px] font-medium leading-[1.6] text-[#1a191e80]">
                 © Made by{" "}
                 <span className="text-[#5bb5a2]">
@@ -294,7 +294,7 @@ export default function RootLayout({ children }) {
                   </a>
                 </span>
               </p>
-              <ul className="text-[14px] font-medium leading-[1.6] text-[#1a191e80] flex gap-8">
+              <ul className="text-[14px] font-medium leading-[1.6] text-[#1a191e80] flex gap-4 lg:gap-8">
                 <li className="cursor-pointer">Impressum</li>
                 <li className="cursor-pointer">Mission</li>
               </ul>

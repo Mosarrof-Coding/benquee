@@ -35,10 +35,10 @@ export default function Home() {
       {/* hero */}
       <div className="bg-[#e8f2ee]">
         <div className="max-w-[832px] px-4 mx-auto text-center min-h-[57vh] py-14 md:py-12 lg:py-16 xl:py-20">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-[80px] leading-[1.1] text-[#1a191e] font-medium">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-[80px] mb-1 text-[#1a191e] font-medium">
             All in one Card
           </h1>
-          <h6 className="text-[18px] lg:text-[20px] leading-[1.4] lg:leading-[1.8] text-[#1a191e] max-w-[500px] mx-auto">
+          <h6 className="text-[16px] sm:text-[18px] lg:text-[20px] leading-[1.4] lg:leading-[1.8] text-[#1a191e90] max-w-[500px] mx-auto">
             Senectus et netus et malesuada fames ac turpis. Sagittis vitae et
             leo duis ut diam.
           </h6>
@@ -50,7 +50,7 @@ export default function Home() {
               Open Account
             </Link>
             <div>
-              <button className="text-[#5bb5a2] text-[14px] sm:text-[16px] lg:text-[18px] tracking-tight flex items-center gap-2 cursor-pointer">
+              <button className="text-[#5bb5a2] text-[14px] sm:text-[16px] lg:text-[18px] tracking-tight flex items-center gap-1.5 sm:gap-2 cursor-pointer">
                 Compare Card
                 <span>
                   <Image
@@ -64,7 +64,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="cards flex justify-between items-end gap-2">
+        <div className="cards flex justify-between items-end gap-1 sm:gap-2 lg:gap-4">
           <div className="card">
             <Image src={card1} alt="card1 image" width={0} height={0} />
           </div>
@@ -96,20 +96,35 @@ export default function Home() {
             </p>
             <div className="flex flex-col gap-1 lg:gap-2">
               <h6 className="categorys">
-                <span className="w-6 h-6 rounded-full grid place-items-center bg-[#e8f2ee]">
-                  <Image src={checkmark} alt="checkmark image" />
+                <span className="w-6 h-6 rounded-full grid place-items-center">
+                  <Image
+                    src={checkmark}
+                    alt="checkmark image"
+                    width={0}
+                    height={0}
+                  />
                 </span>
                 Malesuada Ipsum
               </h6>
               <h6 className="leading-[1.4] lg:leading-[1.8] text-[#E1C69D] flex items-center gap-2">
-                <span className="w-6 h-6 rounded-full grid place-items-center bg-[#e8f2ee]">
-                  <Image src={checkmark} alt="checkmark image" />
+                <span className="w-6 h-6 rounded-full grid place-items-center">
+                  <Image
+                    src={checkmark}
+                    alt="checkmark image"
+                    width={0}
+                    height={0}
+                  />
                 </span>
                 Vestibulum
               </h6>
               <h6 className="leading-[1.4] lg:leading-[1.8] text-[#E1C69D] flex items-center gap-2">
-                <span className="w-6 h-6 rounded-full grid place-items-center bg-[#e8f2ee]">
-                  <Image src={checkmark} alt="checkmark image" />
+                <span className="w-6 h-6 rounded-full grid place-items-center">
+                  <Image
+                    src={checkmark}
+                    alt="checkmark image"
+                    width={0}
+                    height={0}
+                  />
                 </span>
                 Parturient Lorem
               </h6>
@@ -139,19 +154,34 @@ export default function Home() {
             <div className="flex flex-col gap-1 lg:gap-2">
               <h6 className="categorys">
                 <span className="w-6 h-6 rounded-full grid place-items-center bg-[#e8f2ee]">
-                  <Image src={checkmark} alt="checkmark image" />
+                  <Image
+                    src={checkmark}
+                    alt="checkmark image"
+                    width={0}
+                    height={0}
+                  />
                 </span>
                 Malesuada Ipsum
               </h6>
               <h6 className="categorys">
                 <span className="w-6 h-6 rounded-full grid place-items-center bg-[#e8f2ee]">
-                  <Image src={checkmark} alt="checkmark image" />
+                  <Image
+                    src={checkmark}
+                    alt="checkmark image"
+                    width={0}
+                    height={0}
+                  />
                 </span>
                 Vestibulum
               </h6>
               <h6 className="categorys">
                 <span className="w-6 h-6 rounded-full grid place-items-center bg-[#e8f2ee]">
-                  <Image src={checkmark} alt="checkmark image" />
+                  <Image
+                    src={checkmark}
+                    alt="checkmark image"
+                    width={0}
+                    height={0}
+                  />
                 </span>
                 Parturient Lorem
               </h6>
@@ -167,6 +197,7 @@ export default function Home() {
             />
           </div>
         </div>
+
         {/* statistics */}
         <div className="cmnView">
           <div className="cmnHeading">
@@ -180,19 +211,34 @@ export default function Home() {
             <div className="flex flex-col gap-1 lg:gap-2">
               <h6 className="categorys">
                 <span className="w-6 h-6 rounded-full grid place-items-center bg-[#e8f2ee]">
-                  <Image src={checkmark} alt="checkmark image" />
+                  <Image
+                    src={checkmark}
+                    alt="checkmark image"
+                    width={0}
+                    height={0}
+                  />
                 </span>
                 Malesuada Ipsum
               </h6>
               <h6 className="categorys">
                 <span className="w-6 h-6 rounded-full grid place-items-center bg-[#e8f2ee]">
-                  <Image src={checkmark} alt="checkmark image" />
+                  <Image
+                    src={checkmark}
+                    alt="checkmark image"
+                    width={0}
+                    height={0}
+                  />
                 </span>
                 Vestibulum
               </h6>
               <h6 className="categorys">
                 <span className="w-6 h-6 rounded-full grid place-items-center bg-[#e8f2ee]">
-                  <Image src={checkmark} alt="checkmark image" />
+                  <Image
+                    src={checkmark}
+                    alt="checkmark image"
+                    width={0}
+                    height={0}
+                  />
                 </span>
                 Parturient Lorem
               </h6>
@@ -208,6 +254,7 @@ export default function Home() {
             />
           </div>
         </div>
+
         {/* saving account */}
         <div className="cmnView">
           <div className="cmnHeading">
@@ -221,19 +268,34 @@ export default function Home() {
             <div className="flex flex-col gap-1 lg:gap-2">
               <h6 className="categorys">
                 <span className="w-6 h-6 rounded-full grid place-items-center bg-[#e8f2ee]">
-                  <Image src={checkmark} alt="checkmark image" />
+                  <Image
+                    src={checkmark}
+                    alt="checkmark image"
+                    width={0}
+                    height={0}
+                  />
                 </span>
                 Malesuada Ipsum
               </h6>
               <h6 className="categorys">
                 <span className="w-6 h-6 rounded-full grid place-items-center bg-[#e8f2ee]">
-                  <Image src={checkmark} alt="checkmark image" />
+                  <Image
+                    src={checkmark}
+                    alt="checkmark image"
+                    width={0}
+                    height={0}
+                  />
                 </span>
                 Vestibulum
               </h6>
               <h6 className="categorys">
                 <span className="w-6 h-6 rounded-full grid place-items-center bg-[#e8f2ee]">
-                  <Image src={checkmark} alt="checkmark image" />
+                  <Image
+                    src={checkmark}
+                    alt="checkmark image"
+                    width={0}
+                    height={0}
+                  />
                 </span>
                 Parturient Lorem
               </h6>
@@ -474,7 +536,7 @@ export default function Home() {
       </div>
 
       {/* call to action */}
-      <div className="ctabtn max-w-[1232px] px-2 mx-2 xl:mx-auto mt-[80px] mb-[80px] bg-[#5bb5a2] rounded-xl lg:rounded-2xl flex flex-col md:flex-row gap-8 lg:gap-16">
+      <div className="ctabtn max-w-[1232px] px-2 mx-2 xl:mx-auto my-14 lg:my-18 xl:my-20 bg-[#5bb5a2] rounded-xl lg:rounded-2xl flex flex-col md:flex-row gap-8 lg:gap-16">
         <div className="left w-full py-6 md:py-8 lg:py-12 xl:py-20 px-2 sm:px-4 lg:px-8 xl:pl-[76px]">
           <h2 className="mb-3 lg:mb-6 xl:mb-8 text-white">
             One app. <br /> One banking
@@ -540,7 +602,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="md:pt-14 lg:pt-18 xl:pt-24 sm:pr-4 lg:pr-8 xl:pr-12 2xl:pr-16 flex justify-center md:justify-end">
+        <div className="my-14 lg:my-18 xl:my-20 xl:pt-24 sm:pr-4 lg:pr-8 xl:pr-12 2xl:pr-16 flex justify-center md:justify-end">
           <Image
             src={ctacard}
             alt="ctacard image"
@@ -552,14 +614,20 @@ export default function Home() {
       </div>
 
       {/* suport */}
-      <div className="ctabtn max-w-[1232px] px-4 mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 lg:gap-[108px] py-24">
-        <div className="dialing">
-          <h2 className="">Need help?</h2>
-          <div className="phone flex items-center gap-6 mb-8">
-            <Image src={phone} alt="phone image" />
+      <div className="ctabtn max-w-[1232px] mx-auto px-4 grid grid-cols-12 py-10 lg:py-12 xl:py-16">
+        <div className="col-span-11 md:col-span-4 mb-8">
+          <h2 className="sm:pb-2 lg:pb-4">Need help?</h2>
+          <div className="phone flex items-center gap-3 lg:gap-6 mb-4 lg:mb-8">
+            <Image
+              src={phone}
+              alt="phone image"
+              width={0}
+              height={0}
+              className="w-8 sm:w-10"
+            />
             <div className="phone">
               <a href="tel:+008012345678">
-                <button className="text-[18px] font-medium leading-[1.4] tracking-tight text-[#1a191e] cursor-pointer">
+                <button className="text-[16px] xl:text-[18px] font-medium leading-[1.4] tracking-tight text-[#1a191e] cursor-pointer">
                   +008 012345678
                 </button>
               </a>
@@ -568,11 +636,17 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="phone flex items-center gap-6 mb-12">
-            <Image src={mailing} alt="mailing image" />
+          <div className="phone flex items-center gap-3 lg:gap-6 mb-6 sm:mb-8 lg:mb-12">
+            <Image
+              src={mailing}
+              alt="mailing image"
+              width={0}
+              height={0}
+              className="w-8 sm:w-10"
+            />
             <div className="phone">
               <a href="mailto:help@benquee.com">
-                <button className="hotline text-[18px] font-medium leading-[1.4] tracking-tight text-[#1a191e] cursor-pointer">
+                <button className="hotline text-[16px] xl:text-[18px] font-medium leading-[1.4] tracking-tight text-[#1a191e] cursor-pointer">
                   help@benquee.com
                 </button>
               </a>
@@ -583,11 +657,23 @@ export default function Home() {
             </div>
           </div>
           <button className="cursor-pointer">
-            <Image src={buttontxt} alt="buttontxt image" />
+            <Image
+              src={buttontxt}
+              alt="buttontxt image"
+              width={0}
+              height={0}
+              className="max-w-20 sm:max-w-24 lg:max-w-full"
+            />
           </button>
         </div>
-        <div>
-          <Image src={column} alt="banco image" />
+        <div className="col-span-12 md:col-span-8">
+          <Image
+            src={column}
+            alt="banco image"
+            width={0}
+            height={0}
+            className="md:ms-auto"
+          />
         </div>
       </div>
     </section>
