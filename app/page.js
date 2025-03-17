@@ -34,7 +34,7 @@ export default function Home() {
     <section className="">
       {/* hero */}
       <div className="bg-[#e8f2ee]">
-        <div className="heading max-w-[832px] px-4 mx-auto text-center min-h-[57vh] py-14 md:py-12 lg:py-16 xl:py-20">
+        <div className="max-w-[832px] px-4 mx-auto text-center min-h-[57vh] py-14 md:py-12 lg:py-16 xl:py-20">
           <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-[80px] leading-[1.1] text-[#1a191e] font-medium">
             All in one Card
           </h1>
@@ -42,15 +42,15 @@ export default function Home() {
             Senectus et netus et malesuada fames ac turpis. Sagittis vitae et
             leo duis ut diam.
           </h6>
-          <div className="button w-fit mx-auto flex items-center justify-center flex-wrap gap-4 lg:gap-8 pt-6 md:pt-8">
+          <div className="button w-fit mx-auto flex items-center justify-center flex-wrap gap-2 sm:gap-4 lg:gap-6 xl:gap-8 pt-6 md:pt-8 lg:pt-12">
             <Link
               href={"user/account"}
-              className="text-[16px] lg:text-[18px] tracking-[-0.03em] py-2 lg:py-4 px-4 lg:px-6 rounded-[6px] bg-[#5bb5a2] text-white"
+              className="text-[14px] sm:text-[16px] lg:text-[18px] tracking-tight py-1 sm:py-2 lg:py-4 px-2 sm:px-4 lg:px-6 rounded-[3px] lg:rounded-[6px] bg-[#5bb5a2] text-white"
             >
               Open Account
             </Link>
             <div>
-              <button className="text-[#5bb5a2] text-[16px] lg:text-[18px] tracking-tight flex items-center gap-2 cursor-pointer">
+              <button className="text-[#5bb5a2] text-[14px] sm:text-[16px] lg:text-[18px] tracking-tight flex items-center gap-2 cursor-pointer">
                 Compare Card
                 <span>
                   <Image
@@ -64,7 +64,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="cards flex justify-between items-end gap-4">
+        <div className="cards flex justify-between items-end gap-2">
           <div className="card">
             <Image src={card1} alt="card1 image" width={0} height={0} />
           </div>
