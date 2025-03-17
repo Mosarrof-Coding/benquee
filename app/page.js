@@ -537,7 +537,7 @@ export default function Home() {
 
       {/* one app */}
       <div className="ctabtn max-w-[1232px] px-2 mx-2 xl:mx-auto my-14 lg:my-18 xl:my-20 bg-[#5bb5a2] rounded-xl lg:rounded-2xl flex flex-col md:flex-row gap-8 lg:gap-16">
-        <div className="left w-full py-6 md:py-8 lg:py-12 xl:py-20 px-2 sm:px-4 lg:px-8 xl:pl-[76px]">
+        <div className="left w-full pt-6 md:pt-8 lg:pt-12 xl:pt-20 px-2 sm:px-4 lg:px-8 xl:pl-[76px]">
           <h2 className="mb-3 lg:mb-6 xl:mb-8 text-white">
             One app. <br /> One banking
           </h2>
@@ -602,7 +602,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="pt-10 sm:pt-12 lg:pt-16 xl:pt-24 sm:pr-4 lg:pr-8 xl:pr-12 2xl:pr-16 flex justify-center md:justify-end">
+        <div className="lg:pt-16 xl:pt-24 sm:pr-4 lg:pr-8 xl:pr-12 2xl:pr-16 flex justify-center md:justify-end">
           <Image
             src={ctacard}
             alt="ctacard image"
