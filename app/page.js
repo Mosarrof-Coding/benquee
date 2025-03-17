@@ -35,7 +35,7 @@ export default function Home() {
       {/* hero */}
       <div className="bg-[#e8f2ee]">
         <div className="container">
-          <div className="heading max-w-[832px] px-4 mx-auto text-center min-h-[calc(100vh-386px)]">
+          <div className="heading max-w-[832px] px-4 mx-auto text-center min-h-[calc(100vh-400px)]">
             <h1 className="text-[38px] md:text-[48px] lg:text-[64px] xl:text-[80px] leading-[1.1] text-[#1a191e] font-medium">
               All in one Card
             </h1>
